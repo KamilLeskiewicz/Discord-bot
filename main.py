@@ -55,7 +55,7 @@ async def ejaj(ctx):
     if "those who know" not in role_names:
         await ctx.send("Chuja ze mną pogadasz")
         return
-
+#sxscsx
     if "those who know" in role_names:
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), base_url="https://api.deepseek.com")
         completion = client.chat.completions.create(
